@@ -218,7 +218,7 @@ app.put('/likemsg', fetchUser ,async (req, res) => {
 });
 
 const server = app.listen(PORT, () => {
-    // console.log("Server running on PORT: ", PORT);
+    console.log("Server running on PORT: ", PORT);
 });
 
 const io = require("socket.io")(server, {
