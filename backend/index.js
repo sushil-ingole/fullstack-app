@@ -21,7 +21,7 @@ app.use(express.json());
 const PORT = 5100;
 
 app.get('/', (req, res) => {
-    res.send("Hello");
+    res.send("Fullstack Chat App");
 });
 
 app.post('/signup', async (req, res) => {
