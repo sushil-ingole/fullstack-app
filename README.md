@@ -66,4 +66,3 @@ This project is a chat application built using the MERN stack (MongoDB, Express.
 ---
 
 Feel free to explore the repository and let me know if you have any questions or need further information.
-```
