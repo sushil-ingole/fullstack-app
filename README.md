@@ -60,7 +60,7 @@ This project is a chat application built using the MERN stack (MongoDB, Express.
 
 ## Dependencies
 
-- **Backend:** Express, MongoDB, Mongoose, Bcrypt, JWT, Socket.io
+- **Backend:** NodeJS, ExpressJS, MongoDB, Mongoose, Bcrypt, JWT, Socket.io
 - **Frontend:** React, Vite
 
 ---
