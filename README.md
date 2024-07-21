@@ -15,6 +15,7 @@ This project is a chat application built using the MERN stack (MongoDB, Express.
 
 1. **Install dependencies:**
    ```bash
+   cd backend
    npm install
 2. Run the backend server:
    ```bash
@@ -24,7 +25,6 @@ This project is a chat application built using the MERN stack (MongoDB, Express.
 
 1. **Navigate to the frontend directory and install dependencies:**
    ```bash
-   cd frontend
    npm install
 
 2.  **Run the development server:**
