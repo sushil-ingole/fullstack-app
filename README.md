@@ -23,13 +23,13 @@ This project is a chat application built using the MERN stack (MongoDB, Express.
 ### Frontend
 
 1. **Navigate to the frontend directory and install dependencies:**
-  ```bash
-  cd frontend
-  npm install
+   ```bash
+   cd frontend
+   npm install
 
 2.  **Run the development server:**
-  ```bash
-  npm run dev
+    ```bash
+    npm run dev
 
 The frontend will be served on http://localhost:5173 by default.
 
