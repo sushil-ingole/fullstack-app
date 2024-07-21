@@ -1,0 +1,12 @@
+.chat-app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .logout-button {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        z-index: 1000;
+    }
+}

@@ -1,0 +1,14 @@
+.chat-messages {
+    overflow-y: auto;
+    padding: 1rem;
+
+    .right-msg {
+        text-align: right;
+    }
+
+    .like-count {
+        margin-top: 0.5rem;
+        color: #007bff;
+        font-size: 0.875rem;
+    }
+}

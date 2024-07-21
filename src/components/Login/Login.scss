@@ -1,0 +1,15 @@
+.form {
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: max-content;
+    width: 400px;
+
+    .sign-up-link {
+        span {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

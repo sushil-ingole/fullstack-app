@@ -1,0 +1,25 @@
+.chat-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+.chat-header {
+    flex: 0 0 auto;
+}
+
+.chat-messages {
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.message-input {
+    flex: 0 0 auto;
+}
+
+.alert-info {
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.form {
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: max-content;
+    width: 400px;
+
+    .text-danger {
+        width: 70%;
+    }
+
+    .sign-in-link {
+        span {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

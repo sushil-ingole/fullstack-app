@@ -1,0 +1,72 @@
+.create-group-form {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+
+    .selected-users-container {
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: 50px;
+
+        .no-user-selected {
+            position: relative;
+            top: 1px;
+        }
+
+        .selected-user {
+            border: 1px solid black;
+            margin-right: 5px;
+            border-radius: 10px;
+            padding: 2px;
+            position: relative;
+            top: 3px;
+
+            &::after {
+                content: 'x';
+                position: absolute;
+                top: -2px;
+                right: -3px;            
+                width: 10px;
+                height: 10px;
+                background-color: grey;
+                border-radius: 50%;
+                font-size: 7px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+        }
+    }
+    .select-users-label {
+        margin: 5px 0;
+        border-bottom: 2px solid black;
+    }
+    .userSelection {
+        max-height: 37vh;
+        overflow: scroll;
+
+        .select-users {
+            cursor: pointer;
+            border: 1px solid black;
+            margin: 0;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+        }
+    }
+}
+
+.close-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: #000;
+    outline: none;
+}
