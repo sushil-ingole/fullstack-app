@@ -1,6 +1,3 @@
-Got it! Here's the entire `README.md` formatted correctly, with continuous markdown sections:
-
-```markdown
 # MERN Stack Chat Application
 
 This project is a chat application built using the MERN stack (MongoDB, Express.js, React, Node.js). It features real-time messaging, user authentication, and group management.
