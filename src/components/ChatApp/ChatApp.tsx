@@ -36,7 +36,7 @@ const ChatApp = () => {
                 }
             }
         } catch (error: any) {
-            // console.log(error);
+            console.log(error);
         }
     };
 
